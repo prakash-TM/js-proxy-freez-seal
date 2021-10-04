@@ -1,6 +1,6 @@
-- ### Proxy
-- ### Freeze
-- ### seal
+- ## Proxy
+- ## Freeze
+- ## seal
 
-## Used the above three functionalities
+### Used the above three functionalities
 
