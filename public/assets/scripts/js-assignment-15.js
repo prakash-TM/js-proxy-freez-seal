@@ -6,17 +6,17 @@ const handler = {
         // console.log("check1" + isFrozen)
         // console.log("check2" + !!isFrozen)
         if (isFrozen) {
-            throw "This is frozen Object";
+            throw "It is frozen Object";
         }
 
         const isSealed = Object.isFrozen(target);
         console.log({ isSealed });
         if (!!isSealed) {
-            throw "This is Sealed Object";
+            throw "It is Sealed Object";
         }
 
-        console.log("@AJ Target:: ", target);
-        console.log(`Setting value ${key} as ${value}`);
+        console.log("Target: ", target);
+        console.log(`set value ${key} as ${value}`);
         target[key] = value;
     },
 };
